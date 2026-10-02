@@ -2,12 +2,11 @@ using UnityEngine;
 
 namespace ScrapBench.Weapons
 {
-    // All vertical scaling lives here. To add a rarity, add an enum value
-    // in AttachmentEnums.cs and a case below. Tiers scale automatically.
+    
     public static class AttachmentScaling
     {
-        public const float TierGrowth = 0.20f; // +20% per tier above T1
-        public const int MaxTier = 5;          // raise this to add more tiers
+        public const float TierGrowth = 0.20f; 
+        public const int MaxTier = 5;          
 
         public static float GetRarityMult(Rarity rarity)
         {
@@ -27,7 +26,6 @@ namespace ScrapBench.Weapons
             return 1f + TierGrowth * (Mathf.Max(tier, 1) - 1);
         }
 
-        // Hard caps for fast-scaling stats (total bonus, 0.75 = +75%).
         public static float GetMaxBonus(StatType stat)
         {
             switch (stat)
