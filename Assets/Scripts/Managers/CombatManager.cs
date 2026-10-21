@@ -3,10 +3,18 @@ using UnityEngine;
 public class CombatManager : MonoBehaviour
 {
 
-    [SerializeField] private Player player;
+    [SerializeField] private PlayerManager player;
     [SerializeField] private Enemy[] enemies;
 
     private bool combatEnded;
+
+    public void Awake()
+    {
+        if (player == null)
+        {
+            player = FindObjectOfType<PlayerManager>();
+        }
+    }
 
     public void PerformPlayerAction(string actionName)
     {

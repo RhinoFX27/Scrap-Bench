@@ -39,7 +39,7 @@ public class Enemy : MonoBehaviour
         return attackCountdown <= 0;
     }
 
-    public void Attack(Player player)
+    public void Attack(PlayerManager player)
     {
         player.TakeDamage(attackDamage);
         attackCountdown = attackSpeed;
