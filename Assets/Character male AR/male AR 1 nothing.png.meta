@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: 45e0f7d46906c084ba11bc2d64685b99
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7138667731661018492
+    second: male AR 1 nothing_0
+  - first:
+      213: 2661127431481147350
+    second: male AR 1 nothing_1
+  - first:
+      213: 8325904488801001101
+    second: male AR 1 nothing_2
+  - first:
+      213: -6970198961708201127
+    second: male AR 1 nothing_3
+  - first:
+      213: 6257618477393636462
+    second: male AR 1 nothing_4
+  - first:
+      213: 1917427132117174502
+    second: male AR 1 nothing_5
+  - first:
+      213: 3227891541208324125
+    second: male AR 1 nothing_6
+  - first:
+      213: 1780259860800380522
+    second: male AR 1 nothing_7
+  - first:
+      213: -6424261388183979045
+    second: male AR 1 nothing_8
+  - first:
+      213: 2273074224163489258
+    second: male AR 1 nothing_9
+  - first:
+      213: -4680947625058227549
+    second: male AR 1 nothing_10
+  - first:
+      213: 7070663423916743529
+    second: male AR 1 nothing_11
+  - first:
+      213: -3859926510604862359
+    second: male AR 1 nothing_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: male AR 1 nothing_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1226
+        height: 1246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c75d23bca74a11360800000000000000
+      internalID: 7138667731661018492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male AR 1 nothing_1
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1218
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6df3b77bc493ee420800000000000000
+      internalID: 2661127431481147350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male AR 1 nothing_2
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 930
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e50d0250e8b8370800000000000000
+      internalID: 8325904488801001101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male AR 1 nothing_3
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 915
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b069959f0e44f90800000000000000
+      internalID: -6970198961708201127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male AR 1 nothing_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 891
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ce7f4d9d687d650800000000000000
+      internalID: 6257618477393636462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male AR 1 nothing_5
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 811
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e84a8451d11c9a10800000000000000
+      internalID: 1917427132117174502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male AR 1 nothing_6
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 656
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18d53f2146cbcc20800000000000000
+      internalID: 3227891541208324125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male AR 1 nothing_7
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 650
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e94e249e0c4b810800000000000000
+      internalID: 1780259860800380522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male AR 1 nothing_8
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 626
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdb390dfd4078d6a0800000000000000
+      internalID: -6424261388183979045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male AR 1 nothing_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 602
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae58c5fa6f49b8f10800000000000000
+      internalID: 2273074224163489258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male AR 1 nothing_10
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 312
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa223c8feee90fb0800000000000000
+      internalID: -4680947625058227549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male AR 1 nothing_11
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 263
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b97ec0cea002260800000000000000
+      internalID: 7070663423916743529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male AR 1 nothing_12
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 22
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96cb8441a49ce6ac0800000000000000
+      internalID: -3859926510604862359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      male AR 1 nothing_0: 7138667731661018492
+      male AR 1 nothing_1: 2661127431481147350
+      male AR 1 nothing_10: -4680947625058227549
+      male AR 1 nothing_11: 7070663423916743529
+      male AR 1 nothing_12: -3859926510604862359
+      male AR 1 nothing_2: 8325904488801001101
+      male AR 1 nothing_3: -6970198961708201127
+      male AR 1 nothing_4: 6257618477393636462
+      male AR 1 nothing_5: 1917427132117174502
+      male AR 1 nothing_6: 3227891541208324125
+      male AR 1 nothing_7: 1780259860800380522
+      male AR 1 nothing_8: -6424261388183979045
+      male AR 1 nothing_9: 2273074224163489258
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

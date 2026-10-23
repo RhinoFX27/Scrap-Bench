@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: 4f54b79f7d70e5648a5259ef86b998a7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -459656088667578806
+    second: AR 1 EXT MAG_0
+  - first:
+      213: 6546110158631489481
+    second: AR 1 EXT MAG_1
+  - first:
+      213: -594825947397204154
+    second: AR 1 EXT MAG_2
+  - first:
+      213: 6346011244419651392
+    second: AR 1 EXT MAG_3
+  - first:
+      213: -5063847317485935958
+    second: AR 1 EXT MAG_4
+  - first:
+      213: 6307744197085874009
+    second: AR 1 EXT MAG_5
+  - first:
+      213: -2042697831714092998
+    second: AR 1 EXT MAG_6
+  - first:
+      213: 8538166438471542795
+    second: AR 1 EXT MAG_7
+  - first:
+      213: -3116360627323813146
+    second: AR 1 EXT MAG_8
+  - first:
+      213: 2163980431115759008
+    second: AR 1 EXT MAG_9
+  - first:
+      213: -7549897138492738232
+    second: AR 1 EXT MAG_10
+  - first:
+      213: 8327750980619155782
+    second: AR 1 EXT MAG_11
+  - first:
+      213: -5634729946195310841
+    second: AR 1 EXT MAG_12
+  - first:
+      213: 9147321667428947610
+    second: AR 1 EXT MAG_13
+  - first:
+      213: -6433842009947054990
+    second: AR 1 EXT MAG_14
+  - first:
+      213: 6840237177477125502
+    second: AR 1 EXT MAG_15
+  - first:
+      213: -5073673585353350475
+    second: AR 1 EXT MAG_16
+  - first:
+      213: -2577087797112235097
+    second: AR 1 EXT MAG_17
+  - first:
+      213: 4245951208304133411
+    second: AR 1 EXT MAG_18
+  - first:
+      213: 866752920586377812
+    second: AR 1 EXT MAG_19
+  - first:
+      213: 5496393122353395681
+    second: AR 1 EXT MAG_20
+  - first:
+      213: -4932998500911113275
+    second: AR 1 EXT MAG_21
+  - first:
+      213: 5959415906956564968
+    second: AR 1 EXT MAG_22
+  - first:
+      213: 6994617988162511246
+    second: AR 1 EXT MAG_23
+  - first:
+      213: 2468198903407921154
+    second: AR 1 EXT MAG_24
+  - first:
+      213: 305393817890420124
+    second: AR 1 EXT MAG_25
+  - first:
+      213: 6017164660418899357
+    second: AR 1 EXT MAG_26
+  - first:
+      213: -8384546662857379649
+    second: AR 1 EXT MAG_27
+  - first:
+      213: -8161109904293269683
+    second: AR 1 EXT MAG_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AR 1 EXT MAG_0
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 838
+        width: 140
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e9f140939fe99f0800000000000000
+      internalID: -459656088667578806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AR 1 EXT MAG_1
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 854
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf4ec9a18478da50800000000000000
+      internalID: 6546110158631489481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AR 1 EXT MAG_2
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 854
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 647543ec3f0ceb7f0800000000000000
+      internalID: -594825947397204154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AR 1 EXT MAG_3
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 837
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 047944caa9f811850800000000000000
+      internalID: 6346011244419651392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AR 1 EXT MAG_4
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 846
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa2af64b1b999b9b0800000000000000
+      internalID: -5063847317485935958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AR 1 EXT MAG_5
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 852
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 957c5596deb998750800000000000000
+      internalID: 6307744197085874009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AR 1 EXT MAG_6
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 846
+        width: 73
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38883d0521e6a3e0800000000000000
+      internalID: -2042697831714092998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AR 1 EXT MAG_7
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 854
+        width: 46
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b08224e7329ad7670800000000000000
+      internalID: 8538166438471542795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AR 1 EXT MAG_8
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 837
+        width: 75
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2c958458670c4d0800000000000000
+      internalID: -3116360627323813146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AR 1 EXT MAG_9
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 807
+        width: 125
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad2d81acb0080e10800000000000000
+      internalID: 2163980431115759008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AR 1 EXT MAG_10
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 806
+        width: 84
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 845f669bd80693790800000000000000
+      internalID: -7549897138492738232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AR 1 EXT MAG_11
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 840
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64937b1056d129370800000000000000
+      internalID: 8327750980619155782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AR 1 EXT MAG_12
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 840
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 707c5cfc7fa6dc1b0800000000000000
+      internalID: -5634729946195310841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AR 1 EXT MAG_13
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 838
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9616598790d1fe70800000000000000
+      internalID: 9147321667428947610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AR 1 EXT MAG_14
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 92
+        width: 1697
+        height: 723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27cde18a7c666b6a0800000000000000
+      internalID: -6433842009947054990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AR 1 EXT MAG_15
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 804
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75d1f6c8776dee50800000000000000
+      internalID: 6840237177477125502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AR 1 EXT MAG_16
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 803
+        width: 43
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b22bbe61c0b699b0800000000000000
+      internalID: -5073673585353350475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AR 1 EXT MAG_17
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 803
+        width: 53
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab91227d485c3cd0800000000000000
+      internalID: -2577087797112235097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AR 1 EXT MAG_18
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 807
+        width: 42
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325cb90c026acea30800000000000000
+      internalID: 4245951208304133411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AR 1 EXT MAG_19
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 805
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a55936033570c00800000000000000
+      internalID: 866752920586377812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AR 1 EXT MAG_20
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 805
+        width: 38
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e736c37c6c174c40800000000000000
+      internalID: 5496393122353395681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AR 1 EXT MAG_21
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 806
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb98a3eff77a8bb0800000000000000
+      internalID: -4932998500911113275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AR 1 EXT MAG_22
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 803
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e955fa613914b250800000000000000
+      internalID: 5959415906956564968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AR 1 EXT MAG_23
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 807
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81ebfb4000e11160800000000000000
+      internalID: 6994617988162511246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AR 1 EXT MAG_24
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 800
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20843a853ddc04220800000000000000
+      internalID: 2468198903407921154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AR 1 EXT MAG_25
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 801
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9575ff2f0afc3400800000000000000
+      internalID: 305393817890420124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AR 1 EXT MAG_26
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 805
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d6d4bd063418350800000000000000
+      internalID: 6017164660418899357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AR 1 EXT MAG_27
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 763
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb0f2bdbb3b14ab80800000000000000
+      internalID: -8384546662857379649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AR 1 EXT MAG_28
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 743
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f6dad08c9edbe80800000000000000
+      internalID: -8161109904293269683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AR 1 EXT MAG_0: -459656088667578806
+      AR 1 EXT MAG_1: 6546110158631489481
+      AR 1 EXT MAG_10: -7549897138492738232
+      AR 1 EXT MAG_11: 8327750980619155782
+      AR 1 EXT MAG_12: -5634729946195310841
+      AR 1 EXT MAG_13: 9147321667428947610
+      AR 1 EXT MAG_14: -6433842009947054990
+      AR 1 EXT MAG_15: 6840237177477125502
+      AR 1 EXT MAG_16: -5073673585353350475
+      AR 1 EXT MAG_17: -2577087797112235097
+      AR 1 EXT MAG_18: 4245951208304133411
+      AR 1 EXT MAG_19: 866752920586377812
+      AR 1 EXT MAG_2: -594825947397204154
+      AR 1 EXT MAG_20: 5496393122353395681
+      AR 1 EXT MAG_21: -4932998500911113275
+      AR 1 EXT MAG_22: 5959415906956564968
+      AR 1 EXT MAG_23: 6994617988162511246
+      AR 1 EXT MAG_24: 2468198903407921154
+      AR 1 EXT MAG_25: 305393817890420124
+      AR 1 EXT MAG_26: 6017164660418899357
+      AR 1 EXT MAG_27: -8384546662857379649
+      AR 1 EXT MAG_28: -8161109904293269683
+      AR 1 EXT MAG_3: 6346011244419651392
+      AR 1 EXT MAG_4: -5063847317485935958
+      AR 1 EXT MAG_5: 6307744197085874009
+      AR 1 EXT MAG_6: -2042697831714092998
+      AR 1 EXT MAG_7: 8538166438471542795
+      AR 1 EXT MAG_8: -3116360627323813146
+      AR 1 EXT MAG_9: 2163980431115759008
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
