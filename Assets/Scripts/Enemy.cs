@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using TMPro;
 public class Enemy : MonoBehaviour
 {
     [Header("Enemy Stats")]
@@ -11,6 +11,9 @@ public class Enemy : MonoBehaviour
     [SerializeField] private int attackSpeed = 3;
     //how much damage they do when attacking
     [SerializeField] private int attackDamage = 4;
+    [SerializeField] private TMP_Text effectText;
+    [SerializeField] private TMP_Text enemyHPText;
+    [SerializeField] private TMP_Text enemyCounterText;
 
     private int attackCountdown;
 
@@ -22,6 +25,7 @@ public class Enemy : MonoBehaviour
     private void Awake()
     {
         attackCountdown = attackSpeed;
+        enemyCounterText.text = attackCountdown.ToString();
     }
 
     public void TickCountdown()
@@ -32,6 +36,8 @@ public class Enemy : MonoBehaviour
     {
         attackCountdown += amount;
         Debug.Log(name + "'s countdown increased to " + attackCountdown + ".");
+        EffectTextQueue.Enqueue(name + "'s countdown increased to " + attackCountdown + "!");
+        enemyCounterText.text = attackCountdown.ToString();
     }
 
     public bool IsAttackReady()
@@ -44,6 +50,8 @@ public class Enemy : MonoBehaviour
         player.TakeDamage(attackDamage);
         attackCountdown = attackSpeed;
         Debug.Log(name + " attacked for " + attackDamage + " damage.");
+        EffectTextQueue.Enqueue(name + " attacked for " + attackDamage + " damage!");
+        enemyCounterText.text = attackCountdown.ToString();
     }
 
     public void TakeDamage(int amount)
@@ -53,16 +61,18 @@ public class Enemy : MonoBehaviour
         armor -= absorbedDamage;
         amount -= absorbedDamage;
         health -= amount;
+        enemyHPText.text = health.ToString();
 
         health = Mathf.Max(health, 0);
-
         Debug.Log(
             name + " has " + health + " health and " + armor + " armor."
         );
+        EffectTextQueue.Enqueue(name + " has " + health + " health and " + armor + " armor!");
 
         if(health <=0)
         {
             Debug.Log(name + " died!");
+            EffectTextQueue.Enqueue(name + " died!");
             gameObject.SetActive(false);
         }
     }

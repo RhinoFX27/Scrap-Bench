@@ -1,10 +1,12 @@
 using UnityEngine;
+using TMPro;
 
 public class CombatManager : MonoBehaviour
 {
 
     [SerializeField] private PlayerManager player;
     [SerializeField] private Enemy[] enemies;
+    [SerializeField]private TMP_Text effectText;
 
     private bool combatEnded;
 
@@ -114,11 +116,13 @@ public class CombatManager : MonoBehaviour
         {
             combatEnded = true;
             Debug.Log("The player won!");
+            EffectTextQueue.Enqueue("The player won!");
         }
         else if (player.IsDead)
         {
             combatEnded = true;
             Debug.Log("The player lost!");
+            EffectTextQueue.Enqueue("The player lost!");
         }
     }
 }
