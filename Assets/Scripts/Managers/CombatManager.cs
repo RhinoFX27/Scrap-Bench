@@ -8,7 +8,7 @@ public class CombatManager : MonoBehaviour
 
     private bool combatEnded;
 
-    public void Awake()
+    public void Start()
     {
         if (player == null)
         {
