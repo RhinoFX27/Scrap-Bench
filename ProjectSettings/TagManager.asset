@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - PlayerHealthText
+  - PlayerCounterText
+  - EffectText
   layers:
   - Default
   - TransparentFX
@@ -11,7 +14,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Background
   - 
   - 
   - 
@@ -41,15 +44,10 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
-    uniqueID: 3618000791
-    locked: 0
-  - name: Game
-    uniqueID: 1631709075
-    locked: 0
   - name: UI
-    uniqueID: 3051274203
+    uniqueID: 3844026779
     locked: 0
   m_RenderingLayers:
   - Default
+  - UI
   m_MigratedRenderPipelines: []

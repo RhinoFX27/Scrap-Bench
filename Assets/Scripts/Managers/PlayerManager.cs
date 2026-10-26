@@ -1,4 +1,6 @@
 using UnityEngine;
+using TMPro;
+using UnityEngine.SceneManagement;
 
 public class PlayerManager : MonoBehaviour
 {
@@ -28,6 +30,9 @@ public class PlayerManager : MonoBehaviour
     //Whole numbers guarantee, decimals are a chance
     //3.5 means 1 shot goes through 3 enemies with a 50% chance to go through a 4th (to hit the 5th)
     [SerializeField] private float penetration;
+    [SerializeField] private TMP_Text effectText;
+    [SerializeField] private TMP_Text playerHPText;
+    [SerializeField] private TMP_Text playerCounterText;
 
     private int attackCountdown;
     private int nextShotAccuracyBonus;
@@ -41,12 +46,34 @@ public class PlayerManager : MonoBehaviour
 
     private void Awake()
     {
+        SceneManager.sceneLoaded += OnSceneLoaded;
         attackCountdown = fireRate;
+        effectText = GameObject.FindWithTag("EffectText").GetComponent<TMP_Text>();
+        playerHPText = GameObject.FindWithTag("PlayerHealthText").GetComponent<TMP_Text>();
+        playerCounterText = GameObject.FindWithTag("PlayerCounterText").GetComponent<TMP_Text>();
+    }
+
+    public void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        if (scene.name == "CombatScene")
+        {
+            // Reset player stats when entering combat
+            armor = 0;
+            attackCountdown = fireRate;
+            nextShotAccuracyBonus = 0;
+            nextShotDamageBonus = 0;
+            effectText = GameObject.FindWithTag("EffectText").GetComponent<TMP_Text>();
+            playerHPText = GameObject.FindWithTag("PlayerHealthText").GetComponent<TMP_Text>();
+            playerCounterText = GameObject.FindWithTag("PlayerCounterText").GetComponent<TMP_Text>();
+            playerHPText.text = currentHealth.ToString();
+            playerCounterText.text = attackCountdown.ToString();
+        }
     }
 
     public void TickCountdown()
     {
         attackCountdown--;
+        playerCounterText.text = attackCountdown.ToString();
     }
 
     public bool IsAttackReady()
@@ -65,45 +92,55 @@ public class PlayerManager : MonoBehaviour
             enemy.TakeDamage(finalDamage);
 
             Debug.Log("Player dealt " + finalDamage + " damage.");
+            EffectTextQueue.Enqueue("Player dealt " + finalDamage + " damage to " + enemy.name + "!");
         }
         else
         {
             Debug.Log("Player missed!");
+            EffectTextQueue.Enqueue("Player missed!");
         }
 
         nextShotAccuracyBonus = 0;
         nextShotDamageBonus = 0;
         attackCountdown = fireRate;
+        playerCounterText.text = attackCountdown.ToString();
     }
 
     public void GainAim(int amount)
     {
         nextShotAccuracyBonus += amount;
         Debug.Log("next shot gained " + amount + " accuracy.");
+        EffectTextQueue.Enqueue("Next shot gained " + amount + " accuracy!");
     }
 
     public void GainArmor(int amount)
     {
         armor += amount;
         Debug.Log("player gained " + amount + " armor.");
+        EffectTextQueue.Enqueue("Player gained " + amount + " armor!");
     }
 
     public void Heal(int amount)
     {
         currentHealth = Mathf.Min(currentHealth + amount, maxHealth);
         Debug.Log("PLayer healed to " + currentHealth + " health.");
+        EffectTextQueue.Enqueue("Player healed to " + currentHealth + " health!");
+        playerHPText.text = currentHealth.ToString();
     }
 
     public void Quickdraw(int amount)
     {
         attackCountdown -= amount;
         Debug.Log("Player countdown is now " + attackCountdown + ".");
+        EffectTextQueue.Enqueue("Player countdown is now " + attackCountdown + "!");
+        playerCounterText.text = attackCountdown.ToString();
     }
 
     public void LoadShot(int amount)
     {
         nextShotDamageBonus += amount;
         Debug.Log("next shot gained " + amount + " damage.");
+        EffectTextQueue.Enqueue("Next shot gained " + amount + " damage!");
     }
 
     public void TakeDamage(int amount)
@@ -117,5 +154,7 @@ public class PlayerManager : MonoBehaviour
         currentHealth = Mathf.Max(currentHealth, 0);
 
         Debug.Log("Player has " + currentHealth + " health and " + armor + " armor.");
+        EffectTextQueue.Enqueue("Player has " + currentHealth + " health and " + armor + " armor!");
+        playerHPText.text = currentHealth.ToString();
     }
 }
