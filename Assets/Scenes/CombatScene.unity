@@ -3335,6 +3335,117 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!1 &1522873999
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1522874002}
+  - component: {fileID: 1522874001}
+  - component: {fileID: 1522874000}
+  m_Layer: 0
+  m_Name: Attachment Bench
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1522874000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522873999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe434a67d40740bf9870ed67e935defb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScrapBench.GridPrototype.SBModBenchDemo
+  loadout: {fileID: 0}
+--- !u!114 &1522874001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522873999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfe66986026c48f8b01d326c97d13fca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScrapBench.GridPrototype.SBModLoadout
+  columns: 3
+  rows: 3
+  baseStats:
+    Damage: 10
+    ShotsPerSecond: 4
+    CriticalMultiplier: 1.5
+    Accuracy: 0.6
+    CriticalChance: 0.1
+    Penetration: 0
+    MultishotChance: 0
+  catalog:
+  - Name: Hollow Point
+    Stat: 0
+    Width: 1
+    Height: 1
+    CommonBonus: 0.1
+    LegendaryBonus: 0.45
+  - Name: Extended Mag
+    Stat: 1
+    Width: 1
+    Height: 3
+    CommonBonus: 0.06
+    LegendaryBonus: 0.27
+  - Name: Suppressor
+    Stat: 2
+    Width: 2
+    Height: 1
+    CommonBonus: 0.1
+    LegendaryBonus: 0.45
+  - Name: Sight
+    Stat: 3
+    Width: 1
+    Height: 1
+    CommonBonus: 0.08
+    LegendaryBonus: 0.36
+  - Name: Under Barrel Laser
+    Stat: 4
+    Width: 2
+    Height: 1
+    CommonBonus: 0.05
+    LegendaryBonus: 0.225
+  - Name: Armor Piercing Rounds
+    Stat: 5
+    Width: 1
+    Height: 1
+    CommonBonus: 0.1
+    LegendaryBonus: 0.45
+  - Name: Buckshot
+    Stat: 6
+    Width: 1
+    Height: 2
+    CommonBonus: 0.1
+    LegendaryBonus: 0.45
+--- !u!4 &1522874002
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522873999}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1552052119
 GameObject:
   m_ObjectHideFlags: 0
@@ -4043,3 +4154,4 @@ SceneRoots:
   - {fileID: 1191409050}
   - {fileID: 1802345559}
   - {fileID: 1949478355}
+  - {fileID: 1522874002}
