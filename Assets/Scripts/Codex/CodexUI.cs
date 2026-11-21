@@ -262,7 +262,7 @@ namespace ScrapBench.Codex
         private void EnsureEventSystem()
         {
 #if UNITY_2023_1_OR_NEWER
-            if (FindFirstObjectByType<EventSystem>() != null) return;
+            if (FindAnyObjectByType<EventSystem>() != null) return;
 #else
             if (FindObjectOfType<EventSystem>() != null) return;
 #endif

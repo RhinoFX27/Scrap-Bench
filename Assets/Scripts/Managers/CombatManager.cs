@@ -14,7 +14,11 @@ public class CombatManager : MonoBehaviour
     {
         if (player == null)
         {
+#if UNITY_2023_1_OR_NEWER
+            player = FindAnyObjectByType<PlayerManager>();
+#else
             player = FindObjectOfType<PlayerManager>();
+#endif
         }
     }
 
