@@ -42,6 +42,11 @@ public class PlayerManager : MonoBehaviour
     public int Armor => armor;
     public int AttackCountDown => attackCountdown;
     public bool IsDead => currentHealth <= 0;
+    public int Damage => damage;
+    public int CritDamage => critDamage;
+    public int CritChance => critChance;
+    public float Multishot => multishot;
+    public float Penetration => penetration;
 
 
     private void Awake()
@@ -83,21 +88,68 @@ public class PlayerManager : MonoBehaviour
 
     public void Attack(Enemy enemy)
     {
+        Attack(enemy, null);
+    }
+
+    public void Attack(Enemy enemy, Enemy[] enemies)
+    {
         int finalAccuracy = Mathf.Clamp(accuracy + nextShotAccuracyBonus, 0, 100);
-        bool attackHit = Random.Range(0, 100) < finalAccuracy;
-
-        if (attackHit)
+        int projectileCount = Mathf.Max(1, Mathf.FloorToInt(multishot));
+        float multishotFraction = multishot - Mathf.Floor(multishot);
+        if (Random.value < multishotFraction)
         {
-            int finalDamage = damage + nextShotDamageBonus;
-            enemy.TakeDamage(finalDamage);
-
-            Debug.Log("Player dealt " + finalDamage + " damage.");
-            EffectTextQueue.Enqueue("Player dealt " + finalDamage + " damage to " + enemy.name + "!");
+            projectileCount++;
         }
-        else
+
+        int penetrationCount = Mathf.Max(1, Mathf.FloorToInt(penetration));
+        float penetrationFraction = penetration - Mathf.Floor(penetration);
+        if (Random.value < penetrationFraction)
         {
-            Debug.Log("Player missed!");
-            EffectTextQueue.Enqueue("Player missed!");
+            penetrationCount++;
+        }
+
+        Enemy[] targets = enemies;
+        if (targets == null || targets.Length == 0)
+        {
+            targets = enemy != null ? new[] { enemy } : new Enemy[0];
+        }
+
+        for (int projectile = 0; projectile < projectileCount; projectile++)
+        {
+            bool attackHit = Random.Range(0, 100) < finalAccuracy;
+            if (!attackHit)
+            {
+                Debug.Log("Player missed!");
+                EffectTextQueue.Enqueue("Player missed!");
+                continue;
+            }
+
+            bool isCritical = Random.Range(0, 100) < critChance;
+            int finalDamage = (isCritical ? critDamage : damage) + nextShotDamageBonus;
+
+            int enemiesHit = 0;
+            foreach (Enemy target in targets)
+            {
+                if (target == null || target.IsDead)
+                    continue;
+
+                target.TakeDamage(finalDamage);
+                enemiesHit++;
+
+                if (isCritical)
+                {
+                    Debug.Log("Critical hit! Player dealt " + finalDamage + " damage.");
+                    EffectTextQueue.Enqueue("Critical hit! Player dealt " + finalDamage + " damage to " + target.name + "!");
+                }
+                else
+                {
+                    Debug.Log("Player dealt " + finalDamage + " damage.");
+                    EffectTextQueue.Enqueue("Player dealt " + finalDamage + " damage to " + target.name + "!");
+                }
+
+                if (enemiesHit >= penetrationCount)
+                    break;
+            }
         }
 
         nextShotAccuracyBonus = 0;

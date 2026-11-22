@@ -76,7 +76,7 @@ public class CombatManager : MonoBehaviour
         {
             Enemy target = GetFrontEnemy();
             if (target != null)
-                player.Attack(target);
+                player.Attack(target, enemies);
         }
 
         //Every surviving enemy whose countdown reached zero attacks.
