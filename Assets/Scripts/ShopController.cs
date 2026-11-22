@@ -9,12 +9,16 @@ public class StoreNavigation : MonoBehaviour
     [SerializeField] private GameObject gunSelection;
     [SerializeField] private GameObject back;
 
+    [SerializeField] private GameObject sellScreen;
+
+
     public void OpenAmmoScreen()
     {
         ammoScreen.SetActive(true);
         ammoScreen.transform.SetAsLastSibling();
 
         gunSelection.SetActive(false);
+        sellScreen.SetActive(false);
         back.SetActive(false);
     }
 
@@ -24,6 +28,17 @@ public class StoreNavigation : MonoBehaviour
         gunSelection.transform.SetAsLastSibling();
 
         ammoScreen.SetActive(false);
+        sellScreen.SetActive(false);
+        back.SetActive(true);
+    }
+    
+    public void OpenSellScreen()
+    {
+        sellScreen.SetActive(true);
+        sellScreen.transform.SetAsLastSibling();
+
+        gunSelection.SetActive(false);
+        ammoScreen.SetActive(false);
         back.SetActive(true);
     }
 
@@ -32,9 +47,10 @@ public class StoreNavigation : MonoBehaviour
         gunSelection.SetActive(false);
         ammoScreen.SetActive(false);
         back.SetActive(false);
+        sellScreen.SetActive(false);
 
         shop.SetActive(true);
-        shop.transform.SetAsLastSibling();
+        shop.transform.SetAsFirstSibling();
     }
 }
 
