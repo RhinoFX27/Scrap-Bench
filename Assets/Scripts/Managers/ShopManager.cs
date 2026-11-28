@@ -49,7 +49,9 @@ public class ShopManager : MonoBehaviour
             new item(7, "Grenade Launcher", "A weapon that launches explosive grenades.", 400, 1),
             new item(8, "Rocket Launcher", "A weapon that fires rockets for massive damage.", 600, 1),
             new item(9, "Laser Rifle", "A futuristic energy weapon.", 350, 1),
-            new item(10, "Bullets", "Ammunition for Firearms", 10, 120)
+            new item(10, "Magazine 1", "place to hold ammo for firearms", 100, 1),
+            new item(11, "Magazine 2", "Bigger mag for the rifle", 200, 1),
+            new item(12, "Magazine 3", "Bigger mag for the SMG", 500, 1)
         };
         
         playerInventory = new item[]
@@ -63,7 +65,9 @@ public class ShopManager : MonoBehaviour
             new item(7, "Grenade Launcher", "A weapon that launches explosive grenades.", 400, 0),
             new item(8, "Rocket Launcher", "A weapon that fires rockets for massive damage.", 600, 0),
             new item(9, "Laser Rifle", "A futuristic energy weapon.", 350, 0),
-            new item(10, "Bullets", "Ammunition for Firearms", 10, 0)
+            new item(10, "Magazine 1", "place to hold ammo for firearms", 100, 1),
+            new item(11, "Magazine 2", "Bigger mag for the rifle", 200, 1),
+            new item(12, "Magazine 3", "Bigger mag for the SMG", 500, 1)
         };
     }
 
